@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase-Online Shopping</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+>
+    
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar  -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between flex-wrap gap-4">
+            <!-- LOGO -->
+             <h1 class="text-2xl">ShopEase</h1>
+            <!-- Navigation -->
+            <div class="flex gap-6 text-gray-700 font-medium">
+                <a href="index.html" class="hover:text-blue-600">Home</a>
+                <a href="products.html" class="hover:text-blue-600">Products</a>
+                <a href="about.html" class="hover:text-blue-600">About</a>
+                <a href="contact.html" class="hover:text-blue-600">Contact</a>
+            </div>
+             <!-- Search Bar -->
+              <input
+              type="text"
+              placeholder="Search products..."
+              class="border border-gray-300 rounded-lg px-4 py-2 outline-none focus:border-blue-500">
+              <!-- Cart  -->
+               <a href="cart.html"
+               class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 flex items-center gap-2">
+               <i data-lucide="shopping-cart"></i>Cart</a>
+
+        </div>
+    </nav>
+<!-- Hero Section -->
+ <section class="bg-blue-50">
+            <div class="max-w-7xl mx-auto px-6 py-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Left Content -->
+                    <div>
+                        <span class="text-blue-600 font-semibold">
+                            New Collection 2026
+                        </span>
+                        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mt-4 leading-tight"> Discover Your
+                            <span class="text-blue-600">Style</span>
+                        </h1>
+                        <p class="text-gray-600 mt-6 text-lg leading-relaxed">Explore the latest fastion trends and Discover
+                            amazing products at affordable prices.
+                        </p>
+                        <div class="flex flex-wrap gap-4 mt-8">
+                            <a href="products.html" class="bg-blue-600 text-white px-7 py-3 rounded-lg hover:bg-blue-700 transition">
+                                Shop Now
+                            </a>
+                            <a href="products.html" class="border border-gray-400 text-gray-800 px-7 py-3 rounded-lg hover:bg-white transition">
+                                Explore Collection
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+                        <!-- Right Image -->
+                         <div>
+                            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900" alt="Fastion Shopping collection"
+                            class="w-full h-80 md:h-96 object-cover rounded-2xl shadow-lg">
+                         </div>
+            
+            </div>
+ </section>
+<!-- Featured Products Section  -->
+    <section class="max-w-7xl mx-auto px-6 py-16">
+
+        <!-- Section Heading -->
+         <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900">Featured Products</h2>
+            <p class="text-gray-500 mt-3">Discover our most popular products</p>
+         </div>
+         <!-- Product Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Product 1 -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Classic Sneakers"
+                    class="w-full h-56 object-cover">
+
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-gray-900">Classic Sneakers</h3>
+                        <p class="text-blue-600 font-bold mt-2">₹1,499</p>
+                        <button class="w-full bg-blue-600 text-white py-2 rounded-lg mt-4 hover:bg-blue-700 transition">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=600" alt="Premium Watch"
+                    class="w-full h-56 object-cover">
+
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-gray-900">Premium Watch</h3>
+                        <p class="text-blue-600 font-bold mt-2">₹2,299</p>
+                        <button class="w-full bg-blue-600 text-white py-2 rounded-lg mt-4 hover:bg-blue-700 transition">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600" alt="Travel Backpack"
+                    class="w-full h-56 object-cover">
+
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-gray-900">Travel Backpack</h3>
+                        <p class="text-blue-600 font-bold mt-2">₹999</p>
+                        <button class="w-full bg-blue-600 text-white py-2 rounded-lg mt-4 hover:bg-blue-700 transition">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600" alt="Wireless Headphones"
+                    class="w-full h-56 object-cover">
+
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-gray-900">Wireless Headphones</h3>
+                        <p class="text-blue-600 font-bold mt-2">₹1,799</p>
+                        <button class="w-full bg-blue-600 text-white py-2 rounded-lg mt-4 hover:bg-blue-700 transition">Add to Cart</button>
+                    </div>
+                </div>
+
+           </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+     <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Heading  -->
+             <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Why Choose ShopEase?</h2>
+                <p class="text-gray-500 mt-3">We make your shopping experience better.</p>
+             </div>
+                        <!-- Features Grid  -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Feature 1 -->
+                        <div class="bg-white p-8 rounded-xl text-center shadow-sm hover:shadow-lg transition">
+                             <i data-lucide="truck" class="w-10 h-10 text-blue-600 mx-auto"></i>
+                            <h3 class="font-bold text-lg mt-5">Free Shpping</h3>
+                            <p class="text-gray-500 text-sm mt-3">Enjoy free deliveery on eligible orders.</p>
+                        </div>
+                        <!-- Feature 2 -->
+                        <div class="bg-white p-8 rounded-xl text-center shadow-sm hover:shadow-lg transition">
+                            <i data-lucide="shield-check" class="w-10 h-10 text-blue-600 mx-auto"></i>
+                            <h3 class="font-bold text-lg mt-5">Secure Payment</h3>
+                            <p class="text-gray-500 text-sm mt-3">Your payments are safe and secure.</p>
+                        </div>
+                        <!-- Feature 3 -->
+                        <div class="bg-white p-8 rounded-xl text-center shadow-sm hover:shadow-lg transition">
+                            <i data-lucide="refresh-ccw" class="w-10 h-10 text-blue-600 mx-auto"></i>
+                            <h3 class="font-bold text-lg mt-5">Easy Returns</h3>
+                            <p class="text-gray-500 text-sm mt-3">Easy and hassle-free return process.</p>
+                        </div>
+                        <!-- Feature 4 -->
+                        <div class="bg-white p-8 rounded-xl text-center shadow-sm hover:shadow-lg transition">
+                          <i data-lucide="headset" class="w-10 h-10 text-blue-600 mx-auto"></i>
+                          <h3 class="font-bold text-lg mt-5">24/7 Support</h3>
+                          <p class="text-gray-500 text-sm mt-3">Our team is always ready to help you.</p>
+                        </div>
+                
+                </div>
+        </div>
+     </section>
+     <!-- Newslatter Section  -->
+     <section class="bg-blue-600 py-16">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <!-- Heading  -->
+             <h2 class="text-3xl md:text-4xl font-bold text-white"> Subscribe to Our Newslatter</h2>
+             <!-- Description  -->
+              <p class="text-blue-100 mt-4">Get the latest updates,special offers and
+                exclusive discounts directly in your inbox.
+              </p>
+              <!-- Email Form  -->
+               <form class="mt-8 flex flex-col sm:flex-row gap-3">
+                <input type="email" placeholder="Enter your email address" class="flex-1 px-5 py-3 rounded-lg outline-none foc ring-2 focus:bg-gray-300" required>
+                <button type="submit" class="bg-gray-900 text-white px-7 py-3 rounded-lg hover:bg-gray-800 transition">Subscribe</button>
+               <p class="text-blue-100 text-sm mt-4">We respact your privacy. Unsubscribe anytime.</p>
+               </form>
+        </div>
+     </section>
+<!-- Footer Section  -->
+ <footer class="bg-gray-900 text-white pt-14 pb-6">
+    <div class="max-w-7xl mx-auto px-6">
+        <!-- Footer Grid  -->
+         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+                        <!-- Column 1 -->
+                        <div>
+                            <h2 class="text-2xl font-bold text-blue-400">ShopEase</h2>
+                            <p>Your favourite online shopping destination.Discover quality products at affordable prices.</p>
+                        </div>
+                        <!-- Column 2  -->
+                        <div>
+                            <h3 class="text-lg font-semibold mb-5">Quick Links</h3>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>
+                                    <a href="index.html" class="hover:text-blue-400"> Home</a>
+                                </li>
+                                <li>
+                                    <a href="products.html" class="hover:text-blue-400"> Product</a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="hover:text-blue-400"> About Us</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html" class="hover:text-blue-400">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                         <!-- Column 3  -->
+                        <div>
+                            <h3>Customer Support</h3>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>
+                                    <a href="#" class="hover:text-blue-400"> FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:text-blue-400"> Shipping Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:text-blue-400"> Return Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:text-blue-400">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Column 4  -->
+                        <div>
+                            <h3 class="text-lg font-semibold mb-5">Follow Us</h3>
+                            <!-- <div class="flex gap-5 text-gray-400">
+                                <a href="#" aria-label="Facebook" class="hover:text-blue-400">
+                                    <i data-lucide="facebook"></i>
+                                </a>
+                                <a href="#" aria-label="Instagram" class="hover:text-blue-400">
+                                    <i data-lucide="instagram"></i>
+                                </a>
+                                <a href="#" aria-label="Twitter" class="hover:text-blue-400">
+                                    <i data-lucide="twitter"></i>
+                                </a>
+                                
+                            </div> -->
+                            <div class="flex gap-5 text-xl">
+
+                                        <!-- Facebook -->
+                                        <a href="#"
+                                        aria-label="Facebook" class="text-gray-400 hover:text-blue-500 transition">
+                                        <i class="fa-brands fa-facebook"></i></a>
+                                        <!-- Instagram -->
+                                        <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-pink-500 transition">
+                                        <i class="fa-brands fa-instagram"></i></a>
+
+                                        <!-- Twitter / X -->
+                                        <a href="#" aria-label="X" class="text-gray-400 hover:text-sky-400 transition">
+                                        <i class="fa-brands fa-x-twitter"></i></a>
+                            </div>
+                                        <p class="text-gray-400 mt-5">Stay connected with ShopEase.</p>
+                        </div>
+
+            </div>
+                                <!-- Copyright -->
+                            <div class="border-t border-gray-700 mt-12 pt-6 text-center">
+                                <p class="text-gray-400 text-sm">© 2026 ShopEase. All rights reserved.</p>
+                            </div>
+    </div>
+ </footer>
+
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
