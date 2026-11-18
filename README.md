@@ -72,7 +72,7 @@ vite.config.js
 ![Homepage](screenshot/Homepage.png)
 
 ### Featured Products
-![Featured Products](screenshot/Newsletter Subscription Section.png)
+![Featured Products](screenshot/Products.png)
 
 ### Why Choose Us
 ![Why Choose Us](screenshot/features.png)
