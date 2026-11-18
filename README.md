@@ -75,7 +75,7 @@ vite.config.js
 ![Featured Products](screenshot/Products.png)
 
 ### Why Choose Us
-![Why Choose Us](screenshot/features.png)
+![Why Choose Us](screenshot/WhyChooseUs.png)
 
 ### Newsletter and Footer
 ![Newsletter and Footer](screenshot/Newsletter.png)
