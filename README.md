@@ -68,8 +68,17 @@ vite.config.js
 5. Open the local URL shown in your terminal.
 
 ## 📸 Screenshots
+### Homepage
+![Homepage](screenshots/homepage.png)
 
-Screenshots will be added soon.
+### Featured Products
+![Featured Products](screenshots/products.png)
+
+### Why Choose Us
+![Why Choose Us](screenshots/features.png)
+
+### Newsletter and Footer
+![Newsletter and Footer](screenshots/footer.png)
 
 ## 👨‍💻 Author
 
