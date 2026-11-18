@@ -69,16 +69,16 @@ vite.config.js
 
 ## 📸 Screenshots
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshot/homepage.png)
 
 ### Featured Products
-![Featured Products](screenshots/products.png)
+![Featured Products](screenshot/products.png)
 
 ### Why Choose Us
-![Why Choose Us](screenshots/features.png)
+![Why Choose Us](screenshot/features.png)
 
 ### Newsletter and Footer
-![Newsletter and Footer](screenshots/footer.png)
+![Newsletter and Footer](screenshot/footer.png)
 
 ## 👨‍💻 Author
 
