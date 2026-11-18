@@ -69,7 +69,7 @@ vite.config.js
 
 ## 📸 Screenshots
 ### Homepage
-![Homepage](screenshot/homepage.png)
+![Homepage](screenshot/Homepage.png)
 
 ### Featured Products
 ![Featured Products](screenshot/products.png)
