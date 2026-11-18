@@ -78,7 +78,7 @@ vite.config.js
 ![Why Choose Us](screenshot/features.png)
 
 ### Newsletter and Footer
-![Newsletter and Footer](screenshot/Newsletter.png).
+![Newsletter and Footer](screenshot/Newsletter.png)
 
 ## 👨‍💻 Author
 
