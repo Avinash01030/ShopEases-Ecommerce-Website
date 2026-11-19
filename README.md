@@ -63,7 +63,7 @@ vite.config.js
 
 4. Start the development server:
 
-   npm run dev
+   npm run dev OR .\node_modules\.bin\vite.cmd
 
 5. Open the local URL shown in your terminal.
 
